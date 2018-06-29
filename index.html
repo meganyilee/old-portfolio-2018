@@ -5,36 +5,28 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-
-
-
-
 	<head>
-
-		<title>Megan Lee</title>
+		<title>MEGAN LEE</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-
-
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body>
+	<body class="is-preload">
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">Solid State</a></h1>
+					<!--  <header id="header" class="alt">
+
+						<h1><a href="index.html">Hi, I'm Megan Lee</a></h1>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
-					</header>
+					</header> -->
 
-				<!-- Menu -->
+				<!-- Menu --> <!-- 
 					<nav id="menu">
 						<div class="inner">
 							<h2>Menu</h2>
@@ -49,11 +41,22 @@
 						</div>
 					</nav>
 
+				-->
+
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<br><br><br>
-							<h2><span style="color: #fff; font-family: Brandon Grotesque;">Hi, I'm <b>Megan Lee</b></span></h2>
+							<br><br>
+							<h2>Hi, I'm <b>Megan Lee</b></h2>
+							
+
+							<!-- particles.js container -->
+							<div id="particles-js"></div>
+							
+							<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+							<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+							
+
 						</div>
 					</section>
 
@@ -63,14 +66,19 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="https://78.media.tumblr.com/20a0bc5bcef946f57fc0bc961d74c2e2/tumblr_pacs86wJtk1rzbc0go1_1280.jpg" alt="" /></a>
+
+
+									<a href="#" class="image"><img src="images/me.jpg" alt="" /></a>
+
 									<div class="content">
-										<h2 class="major">About Me</h2>
+										<h2 class="major"><span style="color: black">About</h2></span>
+
 										<p>Megan is currently a student at UC Berkeley pursuing degrees in Computer Science and Media Studies. She is especially interested in digital media and is curious about augmented reality, the design and implementation of systems, and artificial intelligence. <br><br>
 
 										For an ongoing 5 years, Megan has spent time working with kids and teens, teaching various digital media courses, math, and communications. At university, she is currently the marketing head of a UC Berkeley student-run publication, Caliber Magazine. <br><br>
 
-										Megan is a Bay Area native, and loves to brunch and explore different beaches in her free time. </p>
+										Megan is a Bay Area native, and loves to brunch and explore different beaches in her free time.</p>
+									
 									</div>
 								</div>
 							</section>
@@ -78,43 +86,77 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-								
+
+
 									<div class="content">
-										<h2 class="major"><span style="color: #000;">Skills</span></h2>
-										
-										
-
-										<div style="float:left;">Python</div>
-										<div style="float:right;"><div class="container">
-										  <div class="skills html">.</div>
-										</div></div>
+										<h2 class="major">Skills</h2>
 
 										
-										<p>
+									<!--
+										<div id="skills-bar">
+											<p>Python</p>
+											<div class="skills" id="top-bar">
+												<div class="barclass" id="python-bar"></div>
+											</div><br>
 
-										Python
-										
-
-										<p>HTML & CSS</p>
-										<div class="container">
-										  <div class="skills css">80%</div>
+											<p>Java</p>
+											<div class="skills" id="top-bar">
+												<div class="barclass" id="java-bar"></div>
+											</div><br>
+											
+											<p>Ruby</p>
+											<div class="skills">
+												<div class="barclass" id="ruby-bar"></div>
+											</div><br>
+											
+											<p>HTML & CSS</p>
+											<div class="skills">
+												<div class="barclass" id="html-bar"></div>
+											</div><br>
+											
+											<p>JavaScript & JQuery</p>
+											<div class="skills">
+												<div class="barclass" id="js-bar"></div>
+											</div>
 										</div>
+										<br>I have also worked with Cura, Javascript, Swift, Scheme, and more.
+									-->
 
-										<p>SQL</p>
-										<div class="container">
-										  <div class="skills js">65%</div>
-										</div>
+										
 
-										<p>Arduino</p>
-										<div class="container">
-										  <div class="skills php">60%</div>
-										</div>
+									<div id="progress-bar-collection">
+												<span style="color: white"><p>Python</p>
+												<div class="progress">
+													<div class="python-bar" id="a-bar"></div>
+												</div><br>
+												
+												<p>HTML & CSS</p>
+												<div class="progress">
+													<div class="html-bar" id="b-bar"></div>
+												</div><br>
+												
+												<p>SQL</p>
+												<div class="progress">
+													<div class="sql-bar" id="d-bar"></div>
+												</div><br>
+												
+												
+												<p>Scheme</p>
+												<div class="progress">
+													<div class="scheme-bar" id="d-bar"></div>
+												</div><br></span>
 
-										I have also worked with Cura, Javascript, Swift, Scheme, and more.   
+												
+												
+												
+											</div>
+											<span style="color: white">I have also worked with Cura, Javascript, Swift, Arduino, and more.</span>
 
 
-										</p>
-										<a href="#" class="special">Learn more</a>
+
+
+
+
 									</div>
 								</div>
 							</section>
@@ -122,21 +164,35 @@
 						<!-- Three -->
 							<section id="three" class="wrapper spotlight style3">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+
+									<a href="#" class="image"><img src="images/me2.jpg" alt="" /></a>
+									
 									<div class="content">
-										<h2 class="major">Experience</h2>
+										<h2 class="major"><span style="color: black">Experience</h2></span>
 										<p>
 
-										List experiences here
+										  
+
+										Helped research the changing laws regulating the cannabis industry and it’s effects medically under Professor Heather Haveman at the <span style="color: #03C4BD;"> Haas School of Business</span>.<br><br>
+
+										Consulted for <span style="color: #03C4BD">Adobe</span> through <span style="color: #03C4BD">Berkeley ABA</span>, developing strategies and recommendations to advise Creative Cloud penetrate the education sector more consistently. <br><br>
+
+										Led the marketing team at <span style="color: #03C4BD">Caliber Magazine</span>, UC Berkeley’s premier student run publication. <br><br>
+
+										Founded my own independent online store, <span style="color: #03C4BD">Saturdate</span>, by designing clothes and jewelry catering to women worldwide. This store garnered thousands of sales and over $30,000 in revenue. <br><br>
+
+										Worked at <span style="color: #03C4BD">Digital Media Academy</span> at <span style="color: #03C4BD">Stanford University</span>, teaching kids programming, App Development, and 3D printing. <br><br>
+
+
+								
 
 
 										</p>
-										<a href="#" class="special">Learn more</a>
 									</div>
 								</div>
 							</section>
 
-						<!-- Four -->
+						<!-- Four 
 							<section id="four" class="wrapper alt style1">
 								<div class="inner">
 									<h2 class="major">Vitae phasellus</h2>
@@ -174,39 +230,48 @@
 							</section>
 
 					</section>
+				 -->
 
 				<!-- Footer -->
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>
-							</p>
 							<form method="post" action="#">
-								<div class="field">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="field">
-									<label for="email">Email</label>
-									<input type="email" name="email" id="email" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="4"></textarea>
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
 							</form>
 							<ul class="contact">
-							
+						<!--		<li class="fa-home">
+									Untitled Inc<br />
+									1234 Somewhere Road Suite #2894<br />
+									Nashville, TN 00000-0000
+								</li>
+							-->
+								
+								<span style="color: white">
 								<li class="fa-phone">(408) 207-6112</li>
 								<li class="fa-envelope"><a href="#">meganylee@berkeley.edu</a></li>
-								<li class="fa-facebook"><a href="#">https://www.facebook.com/whatmegan</a></li>
-								<li class="fa-instagram"><a href="#">instagram.com/meganyilee</a></li>
+								<li class="fa-linkedin"><a href="https://www.linkedin.com/in/megan-lee-453ab2141/">Linkedin</a></li>
+								<li class="fa-facebook"><a href="facebook.com/whatmegan">Facebook</a></li>
+								<li class="fa-instagram"><a href="instagram.com/meganyilee">Instagram</a></li></span>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; 2018 Megan Lee. All rights reserved.</li><li>Reference: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Megan Lee 2018</li><li>HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
@@ -214,11 +279,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
 	</body>
